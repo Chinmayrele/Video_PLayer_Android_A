@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         //AUDIO PLAYING LOGIC
         playBtn = findViewById(R.id.playBtn);
         pauseBtn = findViewById(R.id.pauseBtn);
-        soundPlayer = MediaPlayer.create(this, R.raw.dagndelions);
+        soundPlayer = MediaPlayer.create(this, R.raw.dandelions);
 
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
